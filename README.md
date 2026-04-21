@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Surya%20Adapa&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=AVKBS&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Software+Engineer;Distributed+Systems+%26+Backend+Dev;Applied+AI+%7C+ML+Engineer;Building+Scalable+Systems)](https://git.io/typing-svg)
 
