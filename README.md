@@ -1,65 +1,54 @@
-# Portfolio Website
+# Hi, I'm Surya Adapa
 
-Personal portfolio website showcasing my projects, skills, and experience.
+**Software Engineer** | Distributed Systems & Backend Development | Applied AI
 
-## Live Site
+B.Tech in Computer Science at Amrita School of Engineering, Coimbatore (2023-2027)
 
-**URL**: https://avkbsurya119.github.io/
+## What I Work On
 
-## About
+I build scalable backend systems, real-time applications, and apply ML to solve practical problems. Most of my projects focus on distributed architectures, low-latency systems, and AI integration.
 
-This is my personal portfolio website built to showcase my work as a Software Engineer specializing in Applied AI/ML and system development.
+## Featured Projects
 
-## Technologies Used
+### [ConversaVoice](https://github.com/Speech-Synthesis/ConversaVoice)
+Distributed real-time voice AI pipeline with async streaming, achieving 1s first-token latency. Uses Redis-based semantic caching for improved throughput.
 
-- **React** - Frontend framework
-- **TypeScript** - Type-safe JavaScript
-- **Vite** - Build tool and dev server
-- **Tailwind CSS** - Utility-first CSS framework
-- **shadcn/ui** - Re-usable component library
-- **Framer Motion** - Animation library
-- **GitHub Pages** - Hosting and deployment
+### [Hybrid-IDS-ML-XAI](https://github.com/avkbsurya119/hybrid-ids-ml-xai)
+Production-ready intrusion detection system using ML + Explainable AI. Two-stage detection (binary + 14-class) with PyTorch autoencoders. **99.56% accuracy** on CICIDS2017.
 
-## Local Development
+### [Closer](https://github.com/avkbsurya119/closer)
+Real-time chat application with end-to-end encryption (RSA-2048 + AES-256-GCM). Built with React, Node.js, Socket.io & MongoDB.
 
-To run this project locally:
+### [SocialProphet](https://github.com/avkbsurya119/SocialProphet)
+Hybrid time-series forecasting & generative content agent for social media analytics.
 
-```sh
-# Clone the repository
-git clone https://github.com/avkbsurya119/avkbsurya119.github.io.git
+## Tech Stack
 
-# Navigate to the project directory
-cd avkbsurya119.github.io
+**Languages:** C++, Python, Java, TypeScript
+**Backend:** Node.js, Express, FastAPI, REST APIs
+**Frontend/Mobile:** React, Flutter
+**Databases:** PostgreSQL, MongoDB, Redis
+**ML/AI:** PyTorch, scikit-learn, Autoencoders
+**DevOps:** Docker, JWT, WebSockets
 
-# Install dependencies
-npm install
+## GitHub Stats
 
-# Start the development server
-npm run dev
-```
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=avkbsurya119&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+</p>
 
-The site will be available at `http://localhost:8080`
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=avkbsurya119&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
 
-## Build
+## Connect
 
-To create a production build:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/avkbsurya)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:avkbsurya@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://avkbsurya119.github.io/)
 
-```sh
-npm run build
-```
+---
 
-The built files will be in the `dist` directory.
-
-## Deployment
-
-This site is automatically deployed to GitHub Pages using GitHub Actions. Any push to the `main` branch triggers a new deployment.
-
-## Contact
-
-- **Email**: avkbsurya@gmail.com
-- **LinkedIn**: https://linkedin.com/in/avkbsurya
-- **GitHub**: https://github.com/avkbsurya119
-
-## License
-
-© 2026 Venkata Kanna Bhavan Surya Adapa. All rights reserved.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=avkbsurya119&color=blueviolet&style=flat" alt="Profile views" />
+</p>
