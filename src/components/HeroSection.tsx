@@ -48,7 +48,7 @@ const HeroSection = () => {
           className="mb-6"
         >
           <h2 className="font-display text-xl sm:text-2xl md:text-3xl font-medium text-primary neon-text">
-            Software Engineer | Applied AI/ML | System Builder
+            Distributed Systems & Backend Dev | Applied AI/ML Engineer
           </h2>
         </motion.div>
 
@@ -59,10 +59,10 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto mb-10 leading-relaxed"
         >
-          Final-year CSE student with strong{' '}
-          <span className="text-primary">DSA</span>,{' '}
-          <span className="text-secondary">systems fundamentals</span>, and hands-on{' '}
-          <span className="text-accent">AI/ML & application development</span> experience.
+          Final-year CSE student building{' '}
+          <span className="text-primary">scalable real-time systems</span>,{' '}
+          <span className="text-secondary">distributed backends</span>, and{' '}
+          <span className="text-accent">applied AI/ML solutions</span>.
         </motion.p>
 
         {/* CTA Buttons */}

@@ -16,93 +16,101 @@ interface Project {
   techStack: string[];
   decisions: string[];
   interviewValue: string;
+  github?: string;
+  live?: string;
 }
 
 const projects: Project[] = [
   {
-    id: 'canteen',
-    title: 'Canteen Management App',
-    subtitle: 'Flutter + Firebase',
-    icon: Smartphone,
+    id: 'rapidcover',
+    title: 'RapidCover',
+    subtitle: 'AI-Powered Parametric Insurance',
+    icon: Shield,
     status: 'completed',
-    tags: ['Flutter', 'Firebase', 'Cross-Platform'],
-    problem: 'Campus canteens lack efficient ordering systems, causing long queues and order confusion.',
-    solution: 'Built a complete ordering system with separate student and admin interfaces, featuring live order tracking, token workflow, and stock management.',
-    techStack: ['Flutter', 'Firebase Realtime DB', 'Firebase Auth', 'Cloud Functions'],
+    tags: ['FastAPI', 'React', 'XGBoost', 'Redis'],
+    problem: 'Q-Commerce delivery partners lack quick, hassle-free income protection when unable to work.',
+    solution: 'Built AI-powered parametric income insurance with zero-touch claims processing in ~49 seconds using ML-based risk assessment and automated verification.',
+    techStack: ['FastAPI', 'React', 'XGBoost', 'Redis', 'PostgreSQL'],
     decisions: [
-      'Chose Firebase for real-time sync enabling live order status updates',
-      'Implemented role-based access for student vs admin workflows',
-      'Designed modular, scalable architecture for easy feature additions',
+      'XGBoost for real-time risk scoring with high accuracy',
+      'Redis caching for sub-second claim processing latency',
+      'Parametric triggers eliminate manual claim verification',
     ],
-    interviewValue: 'Demonstrates full-stack mobile development, real-time systems, and user-centric design thinking.',
+    interviewValue: 'Demonstrates end-to-end ML product development, real-time systems, and fintech domain expertise.',
+    github: 'https://github.com/Anaswarakorangot/RapidCover',
+    live: 'https://rapidcover-frontend.onrender.com',
   },
   {
-    id: 'learning-platform',
-    title: 'Adaptive Learning Platform',
-    subtitle: 'DSA-Driven CLI System',
+    id: 'conversavoice',
+    title: 'ConversaVoice',
+    subtitle: 'Distributed Real-Time Voice AI',
     icon: Terminal,
     status: 'completed',
-    tags: ['Python', 'Trie', 'Graph', 'Heap'],
-    problem: 'Students struggle to find optimal learning paths for interconnected topics with prerequisites.',
-    solution: 'Developed an academic learning engine using classical DSAs: Trie for fast search, Graph for prerequisite modeling, Min-Heap for learning sequence scheduling.',
-    techStack: ['Python', 'Trie', 'Graph', 'Min-Heap', 'Arrays', 'pytest'],
+    tags: ['Python', 'Redis', 'Async', 'Voice AI'],
+    problem: 'Voice AI systems suffer from high latency, making conversations feel unnatural.',
+    solution: 'Developed distributed real-time voice AI pipeline achieving 1s first-token latency with Redis semantic caching and async processing.',
+    techStack: ['Python', 'Redis', 'AsyncIO', 'WebSockets'],
     decisions: [
-      'Trie chosen for O(m) topic search where m is query length',
-      'Graph structure naturally models prerequisite relationships',
-      'Min-Heap ensures optimal scheduling based on priority scores',
+      'Redis semantic caching for intelligent response reuse',
+      'Async pipeline architecture for parallel processing',
+      'Streaming responses for perceived low latency',
     ],
-    interviewValue: 'Showcases deep understanding of classical DSA applications in real systems — key interview differentiator.',
+    interviewValue: 'Shows distributed systems expertise, latency optimization, and real-time AI pipeline design.',
+    github: 'https://github.com/Speech-Synthesis/ConversaVoice',
   },
   {
-    id: 'ticket-venuma',
-    title: 'Ticket Venuma',
-    subtitle: 'Electron Movie Booking App',
+    id: 'hybrid-ids',
+    title: 'Hybrid-IDS-ML-XAI',
+    subtitle: 'Explainable Network Security',
     icon: Monitor,
     status: 'completed',
-    tags: ['Electron', 'HTML/CSS/JS', 'Desktop'],
-    problem: 'Need for a reliable offline-first desktop application for movie ticket booking in areas with unstable internet.',
-    solution: 'Desktop movie-ticket application with catalog browsing, theater selection, seat booking, and mock payment flow.',
-    techStack: ['Electron', 'HTML5', 'CSS3', 'JavaScript', 'Local Storage'],
+    tags: ['PyTorch', 'FastAPI', 'XAI', 'Security'],
+    problem: 'Traditional intrusion detection lacks explainability, making it hard to trust and debug.',
+    solution: 'Built network intrusion detection system with ML + Explainable AI achieving 99.56% accuracy on CICIDS2017 dataset with SHAP-based interpretability.',
+    techStack: ['PyTorch', 'FastAPI', 'SHAP', 'scikit-learn', 'CICIDS2017'],
     decisions: [
-      'Electron chosen for cross-platform desktop compatibility',
-      'Offline-first architecture with local data caching',
-      'Modular component design for maintainability',
+      'Hybrid ensemble approach for robust detection',
+      'SHAP integration for model interpretability in security context',
+      'FastAPI backend for real-time threat analysis',
     ],
-    interviewValue: 'Demonstrates desktop application development skills and offline-first architecture thinking.',
+    interviewValue: 'Demonstrates ML in cybersecurity, model explainability, and handling imbalanced datasets.',
+    github: 'https://github.com/avkbsurya119/hybrid-ids-ml-xai',
   },
   {
-    id: 'nids',
-    title: 'Network Intrusion Detection',
-    subtitle: 'ML Security System',
-    icon: Shield,
-    status: 'wip',
-    tags: ['ML', 'Random Forest', 'XGBoost', 'Autoencoder'],
-    problem: 'Traditional signature-based intrusion detection fails against novel attack patterns.',
-    solution: 'Developing ML-based intrusion detection using ensemble methods and autoencoders for anomaly detection, with SHAP-based explainability.',
-    techStack: ['Python', 'scikit-learn', 'XGBoost', 'SHAP', 'CICIDS Dataset'],
+    id: 'closer',
+    title: 'Closer',
+    subtitle: 'End-to-End Encrypted Chat',
+    icon: Smartphone,
+    status: 'completed',
+    tags: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
+    problem: 'Need for secure real-time communication with strong encryption guarantees.',
+    solution: 'Built real-time encrypted chat application using RSA-2048 + AES-256-GCM encryption with perfect forward secrecy.',
+    techStack: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Crypto'],
     decisions: [
-      'Ensemble of Random Forest + XGBoost for robust classification',
-      'Autoencoder for unsupervised anomaly detection',
-      'SHAP integration for model interpretability — crucial for security applications',
+      'RSA-2048 for key exchange, AES-256-GCM for message encryption',
+      'Socket.io for real-time bidirectional communication',
+      'MongoDB for flexible message and user data storage',
     ],
-    interviewValue: 'Shows applied ML in cybersecurity, model interpretability awareness, and handling imbalanced datasets.',
+    interviewValue: 'Shows cryptography implementation, real-time systems, and security-first architecture.',
+    github: 'https://github.com/avkbsurya119/closer',
   },
   {
-    id: 'drone-detection',
-    title: 'Drone Object Detection',
-    subtitle: 'YOLOv11 Real-Time System',
+    id: 'socialprophet',
+    title: 'SocialProphet',
+    subtitle: 'AI Content & Forecasting Agent',
     icon: Camera,
     status: 'completed',
-    tags: ['YOLOv11', 'Computer Vision', 'Real-Time'],
-    problem: 'Real-time object detection for drone applications across multiple input sources.',
-    solution: 'Implemented YOLOv11 detection supporting video files, images, USB cameras, and Raspberry Pi cameras with FPS tracking and recording.',
-    techStack: ['Python', 'YOLOv11', 'OpenCV', 'Raspberry Pi'],
+    tags: ['Python', 'ML', 'NLP', 'Time-Series'],
+    problem: 'Content creators struggle to predict trends and generate engaging content consistently.',
+    solution: 'Developed hybrid time-series forecasting and generative content agent combining trend prediction with AI-powered content generation.',
+    techStack: ['Python', 'Transformers', 'Prophet', 'NLP'],
     decisions: [
-      'YOLOv11 for optimal speed/accuracy tradeoff in real-time',
-      'Multi-source input abstraction for deployment flexibility',
-      'Confidence filtering and FPS optimization for smooth UX',
+      'Hybrid approach combining statistical and ML forecasting',
+      'NLP pipeline for content understanding and generation',
+      'Modular agent architecture for extensibility',
     ],
-    interviewValue: 'Demonstrates computer vision expertise, real-time systems optimization, and edge deployment experience.',
+    interviewValue: 'Demonstrates time-series forecasting, NLP, and AI agent development skills.',
+    github: 'https://github.com/avkbsurya119/SocialProphet',
   },
 ];
 
@@ -195,6 +203,33 @@ const ProjectCard = ({ project, index }: { project: Project; index: number }) =>
             <span className="text-xs font-medium text-primary uppercase tracking-wider">Interview Value</span>
             <p className="text-sm text-foreground mt-1">{project.interviewValue}</p>
           </div>
+
+          {(project.github || project.live) && (
+            <div className="flex gap-3 pt-2">
+              {project.github && (
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-muted/50 hover:bg-muted border border-border hover:border-primary/50 text-sm font-medium text-muted-foreground hover:text-primary transition-all"
+                >
+                  <Github className="w-4 h-4" />
+                  View Code
+                </a>
+              )}
+              {project.live && (
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary/10 hover:bg-primary/20 border border-primary/30 text-sm font-medium text-primary transition-all"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  Live Demo
+                </a>
+              )}
+            </div>
+          )}
         </div>
       </motion.div>
 

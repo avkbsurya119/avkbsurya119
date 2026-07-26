@@ -6,23 +6,23 @@ import { GraduationCap, Code, Brain, Cpu, Zap } from 'lucide-react';
 const highlights = [
   {
     icon: GraduationCap,
-    title: 'Academic Excellence',
-    description: 'CGPA 8.45/10 at Amrita School of Engineering',
-  },
-  {
-    icon: Code,
-    title: 'Strong DSA Foundation',
-    description: 'Algorithms, Data Structures, OOP mastery',
+    title: 'B.Tech CSE',
+    description: 'Amrita University (2023-27), Hyderabad',
   },
   {
     icon: Cpu,
-    title: 'Systems Knowledge',
-    description: 'OS, DBMS, Computer Networks fundamentals',
+    title: 'Distributed Systems',
+    description: 'Real-time pipelines, Redis caching, async architectures',
+  },
+  {
+    icon: Code,
+    title: 'Backend Engineering',
+    description: 'FastAPI, Node.js, Socket.io, PostgreSQL',
   },
   {
     icon: Brain,
-    title: 'AI/ML Experience',
-    description: 'PyTorch, YOLO, scikit-learn implementations',
+    title: 'Applied ML/AI',
+    description: 'PyTorch, XGBoost, SHAP explainability',
   },
 ];
 
@@ -56,22 +56,21 @@ const AboutSection = () => {
             className="space-y-6"
           >
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a <span className="text-foreground font-medium">final-year B.Tech CSE student</span> at 
-              Amrita School of Engineering with a passion for building systems that solve real problems.
-            </p>
-            
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              My engineering approach is rooted in <span className="text-primary">strong fundamentals</span> — 
-              from classical data structures and algorithms to operating systems and database management. 
-              This foundation enables me to architect solutions that are both efficient and scalable.
+              I'm a <span className="text-foreground font-medium">B.Tech CSE student at Amrita University</span> (2023-27),
+              based in Hyderabad, with a passion for building scalable real-time systems.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I've applied these skills across diverse domains — building{' '}
-              <span className="text-secondary">CLI systems</span>,{' '}
-              <span className="text-accent">desktop & mobile applications</span>, and{' '}
-              <span className="text-primary">AI/ML pipelines</span>. I'm not locked to any single domain; 
-              I'm adaptable, curious, and execution-driven.
+              My focus areas are <span className="text-primary">Distributed Systems</span>,{' '}
+              <span className="text-secondary">Backend Engineering</span>, and{' '}
+              <span className="text-accent">Applied ML/AI</span>. I build systems that handle
+              real-time data at scale with sub-second latencies.
+            </p>
+
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              From voice AI pipelines with 1s latency to parametric insurance with 49-second claims —
+              I ship production systems that solve real problems. Currently building scalable
+              real-time systems and exploring distributed architectures.
             </p>
 
             <div className="flex items-center gap-4 pt-4">

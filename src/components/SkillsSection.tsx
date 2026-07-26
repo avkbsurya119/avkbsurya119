@@ -5,60 +5,58 @@ import { Code2, Brain, Smartphone, Database, Wrench } from 'lucide-react';
 
 const skillCategories = [
   {
-    title: 'Programming',
+    title: 'Languages',
     icon: Code2,
     color: 'primary',
     skills: [
-      { name: 'Python', usage: 'AI/ML pipelines, automation, backend logic' },
-      { name: 'C++', usage: 'DSA practice, competitive programming' },
+      { name: 'C++', usage: 'DSA, competitive programming, systems' },
+      { name: 'Python', usage: 'AI/ML pipelines, backend, automation' },
       { name: 'Java', usage: 'OOP concepts, enterprise patterns' },
-      { name: 'C', usage: 'Systems programming, fundamentals' },
+      { name: 'TypeScript', usage: 'Type-safe web development' },
+      { name: 'Dart', usage: 'Flutter mobile development' },
     ],
   },
   {
-    title: 'AI / ML',
+    title: 'Backend & Frameworks',
+    icon: Database,
+    color: 'secondary',
+    skills: [
+      { name: 'Node.js', usage: 'Server-side JavaScript runtime' },
+      { name: 'Express', usage: 'REST API development' },
+      { name: 'FastAPI', usage: 'High-performance Python APIs' },
+      { name: 'Socket.io', usage: 'Real-time bidirectional communication' },
+    ],
+  },
+  {
+    title: 'Frontend & Mobile',
+    icon: Smartphone,
+    color: 'accent',
+    skills: [
+      { name: 'React', usage: 'Modern web applications' },
+      { name: 'Flutter', usage: 'Cross-platform mobile apps' },
+      { name: 'TailwindCSS', usage: 'Utility-first styling' },
+    ],
+  },
+  {
+    title: 'Databases & Tools',
+    icon: Wrench,
+    color: 'primary',
+    skills: [
+      { name: 'PostgreSQL', usage: 'Advanced relational database' },
+      { name: 'MongoDB', usage: 'NoSQL document storage' },
+      { name: 'Redis', usage: 'Caching & real-time data' },
+      { name: 'Docker', usage: 'Containerization & deployment' },
+    ],
+  },
+  {
+    title: 'ML / AI',
     icon: Brain,
     color: 'secondary',
     skills: [
       { name: 'PyTorch', usage: 'Deep learning model training' },
       { name: 'scikit-learn', usage: 'Classical ML algorithms' },
       { name: 'XGBoost', usage: 'Gradient boosting models' },
-      { name: 'YOLO', usage: 'Real-time object detection' },
-    ],
-  },
-  {
-    title: 'Application Dev',
-    icon: Smartphone,
-    color: 'accent',
-    skills: [
-      { name: 'Flutter', usage: 'Cross-platform mobile apps' },
-      { name: 'Electron', usage: 'Desktop applications' },
-      { name: 'HTML/CSS/JS', usage: 'Web frontends' },
-      { name: 'React', usage: 'Modern web applications' },
-    ],
-  },
-  {
-    title: 'Core CS',
-    icon: Database,
-    color: 'primary',
-    skills: [
-      { name: 'DSA', usage: 'Problem solving, system design' },
-      { name: 'OOP', usage: 'Clean architecture patterns' },
-      { name: 'OS', usage: 'Process & memory management' },
-      { name: 'DBMS', usage: 'SQL, normalization, indexing' },
-      { name: 'CN', usage: 'Networking protocols, security' },
-    ],
-  },
-  {
-    title: 'Tools & Platforms',
-    icon: Wrench,
-    color: 'secondary',
-    skills: [
-      { name: 'Git', usage: 'Version control, collaboration' },
-      { name: 'Firebase', usage: 'Backend-as-a-service' },
-      { name: 'MySQL', usage: 'Relational database management' },
-      { name: 'VS Code', usage: 'Primary development environment' },
-      { name: 'Jupyter', usage: 'ML experimentation notebooks' },
+      { name: 'SHAP', usage: 'Model explainability' },
     ],
   },
 ];
