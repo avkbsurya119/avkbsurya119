@@ -10,6 +10,7 @@ const skillCategories = [
     color: 'primary',
     skills: [
       { name: 'C++', usage: 'DSA, competitive programming, systems' },
+      { name: 'C', usage: 'Systems programming, embedded systems' },
       { name: 'Python', usage: 'AI/ML pipelines, backend, automation' },
       { name: 'Java', usage: 'OOP concepts, enterprise patterns' },
       { name: 'TypeScript', usage: 'Type-safe web development' },
@@ -43,9 +44,12 @@ const skillCategories = [
     color: 'primary',
     skills: [
       { name: 'PostgreSQL', usage: 'Advanced relational database' },
+      { name: 'MySQL', usage: 'Relational database management' },
       { name: 'MongoDB', usage: 'NoSQL document storage' },
       { name: 'Redis', usage: 'Caching & real-time data' },
       { name: 'Docker', usage: 'Containerization & deployment' },
+      { name: 'Git', usage: 'Version control & collaboration' },
+      { name: 'Linux', usage: 'System administration & scripting' },
     ],
   },
   {
@@ -57,6 +61,7 @@ const skillCategories = [
       { name: 'scikit-learn', usage: 'Classical ML algorithms' },
       { name: 'XGBoost', usage: 'Gradient boosting models' },
       { name: 'SHAP', usage: 'Model explainability' },
+      { name: 'Autoencoders', usage: 'Unsupervised representation learning' },
     ],
   },
 ];

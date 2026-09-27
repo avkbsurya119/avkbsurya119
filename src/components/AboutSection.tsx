@@ -7,7 +7,7 @@ const highlights = [
   {
     icon: GraduationCap,
     title: 'B.Tech CSE',
-    description: 'Amrita University (2023-27), Hyderabad',
+    description: 'Amrita University (2023-27) | CGPA: 8.4/10',
   },
   {
     icon: Cpu,
